@@ -12,7 +12,7 @@ body {
   background-color: #f2f2f2;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 0px -200px;
+  background-position: top -200px right -200px;
 }
 
 /* start header */
@@ -53,7 +53,7 @@ main {
   background-image: url(./assets/bg-pattern-2.svg);
   background-repeat: no-repeat;
   width: 100%;
-  background-position: center -2px;
+  background-position: center -10px;
   display: flex;
   justify-content: center;
   background-color: #191826;
@@ -183,7 +183,7 @@ span {
 
 body {
     background-image: url(./assets/bg-main-tablet.png);
-    background-position: -400px -250px;
+    background-position: top -300px right -100px;
     
 }
 /* start header *//* start header */
@@ -226,9 +226,9 @@ main {
 }
 .main_div {
     height: 600px;
-    background-position: 200px -30px;
+    background-position: center 200px -30px;
     width: 696px;
-    justify-content: center;
+    
 }
 .orange_div {
     width: 399px;
@@ -256,6 +256,113 @@ footer {
 .logo_text p {
     width: 366px;
 }
+}
+/* end tablet size *//* end tablet size */
+
+
+/* desktop size *//* desktop size */
+/* desktop size *//* desktop size */
+@media (min-width: 1440px) {
+
+body {
+    background-image: url(./assets/bg-main-desktop.png);
+    background-position: top -250px right -200px;
+    padding-left: 165px;  
+     
+}
+/* destop main */
+/* desktop header *//* desktop header */
+header {
+    background-size: 280px;
+    background-position: top -40px right 4px;
+}
+.header_h1 {
+    width: 1015px;
+    font-size: 88px;
+    line-height: 88px;
+    margin-top: 127px;
+    margin-bottom: 40px;
+}
+
+.header_p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    width: 825px;
+}
+/* end header *//* end header */
+
+
+/* destop main *//* destop main */
+main {
+    padding-right: 165px;
+}
+
+.main_div {
+    width: 1110px;
+    background-position: left 290px top -50px;
+    
+}
+.illustration {
+    bottom: 150px;
+    margin-left: -320px;
+}
+.orange_div {
+    top: 80px;
+    left: 570px;
+}
+/* end main *//* end main *//* end main */
+
+/* start footer *//* start footer */
+footer {
+    padding-right: 165px;
+}
+.logo_text {
+    display: flex;
+    flex-direction: row;
+}
+.logo_text p {
+    margin-left: 137px;
+    margin-top: 0px;
+    margin-bottom: 91px;
+}
+.footer_logo {
+    height: 32px;
+}
+.footer_logos {
+    margin-top: 20px;
+}
+
+/* hover *//* hover */
+.ios:hover {
+    cursor: pointer;
+    background-color:  #66E2DC;
+}
+.android:hover {
+    cursor: pointer;
+    background-color: #FFB964;
+}
+
+.logo3:hover path {
+    cursor: pointer;
+    fill: #fa7453;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
