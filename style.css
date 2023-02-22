@@ -13,6 +13,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top -200px right -200px;
+  
 }
 
 /* start header */
@@ -46,7 +47,8 @@ main {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  position: relative;
+  
+  
 }
 
 .main_div {
@@ -59,6 +61,9 @@ main {
   background-color: #191826;
   border-radius: 12px;
   height: 600px;
+  margin: auto;
+  position: relative;
+  
 }
 
 .illustration {
@@ -76,6 +81,8 @@ main {
   padding-right: 37px;
   position: absolute;
   top: 430px;
+  z-index: 1;
+  
 }
 
 .orange_div h1 {
@@ -219,6 +226,7 @@ header {
 main {
     padding-left: 33px;
     padding-right: 39px;
+    
 }
 .illustration {
     margin-right: 320px;
@@ -228,7 +236,6 @@ main {
     height: 600px;
     background-position: center 200px -30px;
     width: 696px;
-    
 }
 .orange_div {
     width: 399px;
@@ -236,6 +243,7 @@ main {
     height: 546px;
     top: 190px;
     position: absolute;
+    
 }
 
 /* start footer *//* start footer */
@@ -296,11 +304,13 @@ header {
 /* destop main *//* destop main */
 main {
     padding-right: 165px;
+    
 }
 
 .main_div {
     width: 1110px;
     background-position: left 290px top -50px;
+   
     
 }
 .illustration {
